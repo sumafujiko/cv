@@ -38,18 +38,30 @@ li span {
     font-weight: bold;
 }
 
+/*Header elements*/
+
+.header,
+.name-email {
+    background-color: rgb(162, 162, 162);
+}
+
 .header,
 .header-links {
     display: flex;
-    justify-content: left;
+    justify-content: space-around;
     flex-direction: row;
 }
 
+
 .name-email {
+    margin-right: 350px;
+}
+.name-email,
+.header-links {
     display: flex;
     flex-direction: column;
-    margin-left: 20px;
     margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .name-email h1, h3 {
