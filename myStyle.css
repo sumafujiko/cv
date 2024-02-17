@@ -47,10 +47,17 @@ li span {
 
 .name-email {
     display: flex;
-    justify-content: left;
     flex-direction: column;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.name-email h1, h3 {
     text-align: left;
-    background-color: aquamarine;
+}
+
+.name-email h3 {
+    font-weight: normal;
 }
 
 .experience,
