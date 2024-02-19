@@ -78,4 +78,17 @@ li span {
     display: flex;
     flex-direction: column;
     padding-top: 25px;
+    border: 5px black;
+}
+
+.all-experience {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.place-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
