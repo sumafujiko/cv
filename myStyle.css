@@ -34,6 +34,12 @@ a:hover {
     color: blue;
 }
 
+li,
+.skills p {
+    text-align: justify;
+    padding-top: 5px;
+}
+
 li span {
     font-weight: bold;
 }
@@ -41,7 +47,13 @@ li span {
 /*Header elements*/
 
 .header,
-.name-email {
+.name-email,
+.name-email h1,
+.name-email h3,
+.header-links,
+.header-links h3,
+.header-links a,
+.header-links p {
     background-color: rgb(162, 162, 162);
 }
 
@@ -79,6 +91,7 @@ li span {
     flex-direction: column;
     padding-top: 25px;
     border: 5px black;
+    margin: 20px;
 }
 
 .all-experience {
@@ -91,4 +104,5 @@ li span {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding-top: 10px;
 }
