@@ -19,7 +19,7 @@ h4, h5 {
 }
 
 ul {
-    list-style: none;
+    list-style: disc;
 }
 
 a {
@@ -105,4 +105,16 @@ li span {
     flex-direction: column;
     justify-content: center;
     padding-top: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+    .name-email {
+        margin-right: 0; 
+    }
+
+    .experience,
+    .education,
+    .skills {
+        margin: 10px; 
+    }
 }
